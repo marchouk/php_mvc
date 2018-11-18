@@ -11,6 +11,9 @@ Chat réalisé avec PHP5, HTML5, CSS3, Bootstrap3, Jquery et Wampserver.
 ```bash
 git clone https://github.com/marchouk/php_mvc.git
 ```
+
+La racine du projet est ```/php_mvc/``` configurable dans : ```php_mvc/Config/paramaters.ini``` .
+
 2 - Importer la base de données:
 
 Le fichier est dans la racine du projet : ```php_mvc/bash chat_db.sql``` .
@@ -18,6 +21,7 @@ Le fichier est dans la racine du projet : ```php_mvc/bash chat_db.sql``` .
 Le nom de la bd est ```chat``` .
 
 La configuration de la bd est dans le fichier : ```php_mvc/Config/paramaters.ini``` .
+
 
 ## Usage
 1 - Pour utiliser l'app, allez sur ```localhost/php_mvc```, voici les logins :
