@@ -26,6 +26,8 @@ La configuration de la bd est dans le fichier : ```php_mvc/Config/paramaters.ini
 ## Usage
 1 - Pour utiliser l'app, allez sur ```localhost/php_mvc```, voici les logins :
 
+La page de login : ```http://localhost/php_mvc/authentication/``` 
+
  ```user 1 = mehdi, password = mehdi``` 
 
  ```user 1 = anas, password = anas``` 
