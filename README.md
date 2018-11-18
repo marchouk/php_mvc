@@ -34,12 +34,12 @@ La configuration de la bd est dans le fichier : ```php_mvc/Config/paramaters.ini
 
 Pour discuter avec un utilisateur cliquez sur sa rangée (son nom, image, ...) vous serez dirigé sur la page de T'Chat qui contient ```l'historique de conversation avec cet utilisateur```  , et ```la possibilité de dialoguer avec lui``` .
 
-Pour l'affichage ‘temps réel’ j'ai utiliser AJAX
+Pour l'affichage ‘temps réel’ j'ai utiliser AJAX.
 
 3 - Sécurité des données
 
-Pour les injections SQL , j'ai  utilisé des requêtes paramétrées
+Pour les injections SQL , j'ai  utilisé des requêtes paramétrées.
 
-Pour l'injection de code sur la page Web (cross-site scripting) j'ai  utilisé la fonction php htmlspecialchars pour tout paramètre GET ou POST
+Pour l'injection de code sur la page Web (cross-site scripting) j'ai  utilisé la fonction php  ```htmlspecialchars``` pour tout paramètre GET ou POST
 
-
+Pour les mots de passe j'ai  utilisé la fonction  ```password_hash('$password', PASSWORD_DEFAULT)```pour crypter le mot de passe
